@@ -1,0 +1,25 @@
+{
+  "name": "node-typescript-demo",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project . ./src/**/*.{ts,tsx} --fix",
+    "dev": "nodemon --config nodemonConfig.json"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/template": "^7.4.4",
+    "@babel/types": "^7.4.4",
+    "@types/babel__core": "^7.1.2",
+    "@types/babel__template": "^7.0.2",
+    "@types/node": "^12.0.10",
+    "babel-types": "^6.26.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-alloy": "^0.2.1",
+    "typescript": "^3.5.2"
+  }
+}
